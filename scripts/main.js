@@ -1,5 +1,5 @@
 import setupHeader from './header.js'
-import TabsCollection from './Tabs.js'
+import setupTabsCollection from './tabs.js'
 
 setupHeader()
-new TabsCollection
+setupTabsCollection()
