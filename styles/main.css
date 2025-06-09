@@ -1301,8 +1301,8 @@ a[aria-label]::before, button[aria-label]::before {
   }
 }
 
-.header, main > *:not(:last-child), .footer {
+/* .header, main > *:not(:last-child), .footer {
   display: none !important;
-}
+} */
 
 /*# sourceMappingURL=main.css.map */
