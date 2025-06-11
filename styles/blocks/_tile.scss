@@ -4,9 +4,9 @@
   padding: fluid(40, 24);
   background-color: var(--color-dark-10);
   border: var(--border);
-  border-radius: 12px;
+  border-radius: rem(12);
 
   @include laptop {
-    border-radius: 10px;
+    border-radius: rem(10);
   }
 }

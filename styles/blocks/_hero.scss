@@ -58,7 +58,6 @@
 
   &__metrics {
     grid-area: metrics;
-    border-top: var(--border);
 
     @include tablet-above {
       border-top: var(--border);
@@ -78,13 +77,13 @@
     padding-bottom: rem(80);
     background: url('../../images/resources-preview/bg.png') 0 0/cover no-repeat;
 
-    @include tablet-above {
-      border-left: var(--border);
-    }
-
     @include laptop {
       padding-left: rem(50);
       padding-bottom: rem(50);
+    }
+
+    @include tablet-above {
+      border-left: var(--border);
     }
 
     @include tablet {
@@ -122,7 +121,7 @@
           padding-left: var(--paddingX);
         }
 
-        &:not(:first-child) {
+        &:not(:last-child) {
           padding-right: var(--paddingX);
           border-right: var(--border);
         }

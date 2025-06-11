@@ -14,8 +14,8 @@
     padding: rem(50);
 
     @include laptop {
-      padding: rem(30) rem(40);
       row-gap: 2px;
+      padding: rem(30) rem(40);
     }
 
     @include tablet {

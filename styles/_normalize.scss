@@ -111,11 +111,6 @@ svg * {
   transition-property: fill, stroke;
 }
 
-:where(table) {
-  border-collapse: collapse;
-  border-color: currentColor;
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,

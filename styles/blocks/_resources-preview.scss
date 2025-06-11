@@ -16,7 +16,7 @@
     row-gap: rem(14);
 
     @include laptop {
-      row-gap: rem(6);
+      row-gap: 6px;
     }
   }
 
